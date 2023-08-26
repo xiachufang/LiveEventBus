@@ -1,4 +1,18 @@
 # LiveEventBus
+
+适配Android14
+
+https://developer.android.google.cn/about/versions/13/features?hl=zh-cn#runtime-receivers
+
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+dependencies {
+    implementation 'com.github.michaellee123:LiveEventBus:1.8.14'
+}
+```
+
 ![license](https://img.shields.io/github/license/JeremyLiao/LiveEventBus.svg) [![version](https://img.shields.io/badge/JCenter-v1.7.3-blue.svg)](https://mvnrepository.com/artifact/com.jeremyliao/live-event-bus) [![version](https://img.shields.io/badge/maven-v1.8.0-blue)](https://search.maven.org/artifact/io.github.jeremyliao/live-event-bus)
 
 LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky，支持AndroidX，支持跨进程，支持跨APP
