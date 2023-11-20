@@ -39,11 +39,10 @@ public final class LiveEventBus {
      * get observable by key
      *
      * @param key String
-     * @param <T> T
      * @return Observable
      */
-    public static <T> Observable<T> get(@NonNull String key) {
-        return (Observable<T>)get(key, Object.class);
+    public static Observable<Object> get(@NonNull String key) {
+        return get(key, Object.class);
     }
 
     /**
